@@ -1,0 +1,91 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+header{
+  text-align: center;
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  letter-spacing: 10px;
+}
+#search{
+  height: 25vh;
+  flex-direction: column;
+  padding: 10px;
+}
+#name{
+  width:400px;
+  height: 50px;
+  padding-left: 10px;
+  font-size: 30px;
+}
+#user-img{
+  height: 400px;
+}
+.pills{
+  display: inline-block;
+  padding: 8px;
+  margin-top: 0px;
+  color: white;
+}
+.pills:nth-child(2){
+  background-color: blueviolet;
+  padding-left: 0px;
+}
+.pills:nth-child(3){
+  background-color:red;
+}
+.pills:nth-child(4){
+  background-color:palevioletred;
+}
+.pills:nth-child(5){
+  color: black;
+  background-color: yellow;
+}
+.about{
+  margin:10px 0px;
+  text-align:left;
+}
+#repos{
+  background-color: #333;
+  padding: 20px;
+}
+.tile{
+  background-color: white;
+  margin-top:20px;
+  width: 80%;
+  margin: 10px auto;
+  padding: 20px;
+  font-size: 30px;
+  text-overflow: clip;
+  font-weight: bold;
+}
+.about{
+  background-color: white;
+  font-size: 20px;
+  font-weight: normal;
+}
+#repo-heading{
+  color: white;
+  text-align: center;
+  padding: 20px;
+  background-color: #333;
+  margin-top: 150px;
+  margin-bottom: 0;
+}
+.goto{
+  display: block;
+  width: 180px;
+  background-color:yellow;
+  padding: 10px;
+  margin-left:auto;
+  cursor: pointer;
+  text-decoration: none;
+}
+.stars{
+  color:brown;
+  font-size: 20px;
+  margin-top:10px;
+
+}
